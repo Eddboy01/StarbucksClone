@@ -187,9 +187,9 @@ u{
 .tabination-section{
     padding: 1rem;
     position: relative;
-    min-height: 75vh;
+    min-height: 35vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-4);
@@ -202,12 +202,39 @@ u{
     display: flex;
 }
 .tab{
-    padding: 1rem;
+    padding: 1rem 2.2rem;
+    border: 1px solid #000;
+    font-size: 1.2rem;
 }
 .tabination-container{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position: relative;
     background-color: var(--color-3);
-    height: 60%;
+    height: 40vh;
+}
+.tabination-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    display: none;
+
+}
+.active-tab{
+    display: block;
+}
+.content-1{
+    background-color: blue;
+}
+.content-2{
+    background-color: green;
+}
+.content-3{
+    background-color: red;
+
+}
+.content-4{
+    background-color: yellow;
+}
+.content-5{
+    background-color: orange;
 }
