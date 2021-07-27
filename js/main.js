@@ -10,8 +10,10 @@ function showTab(tabIndex){
 
         console.log(tabContent[x]); 
         tabContent[x].classList.remove("active-tab");
-        
+        tabs[x].classList.remove("selected-tab");
+
     }
     tabContent[tabIndex].classList.add('active-tab');
+    tabs[tabIndex].classList.add('selected-tab');
     
 }
