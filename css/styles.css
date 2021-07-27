@@ -217,24 +217,25 @@ u{
     height: 100%;
     color: #000;
     display: none;
+    background-color: var(--color-3);
 
 }
 .active-tab{
     display: block;
 }
 .content-1{
-    background-color: blue;
+    /* background-color: blue; */
 }
 .content-2{
-    background-color: green;
+    /* background-color: green; */
 }
 .content-3{
-    background-color: red;
+    /* background-color: red; */
 
 }
 .content-4{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .content-5{
-    background-color: orange;
+    /* background-color: orange; */
 }
