@@ -92,6 +92,8 @@ img{
     justify-content: flex-start;
     align-items: center;
     padding: 2rem;
+    position: relative;
+    overflow: hidden;
 }
 .hero-container{
     height: 400px;
@@ -139,6 +141,7 @@ img{
     position: relative;
 
 }
+/* SERVICES SECTION */
 .services-container{
     display: flex;
     justify-content: space-evenly;
@@ -250,4 +253,13 @@ u{
 }
 .content-5{
     /* background-color: orange; */
+}
+.star{
+    /* min-width: 100vw;
+    min-height: 100vh; */
+    min-height: 750px;
+    min-width: 2050px;
+    position: absolute;
+    right: -30%;
+    top: ;
 }
