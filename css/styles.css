@@ -142,6 +142,15 @@ img{
     position: relative;
 
 }
+.star{
+    /* min-width: 100vw;
+    min-height: 100vh; */
+    min-height: 750px;
+    min-width: 2050px;
+    position: absolute;
+    right: -30%;
+    
+}
 /* SERVICES SECTION */
 .services-container{
     display: flex;
@@ -202,6 +211,7 @@ u{
 .tabination-header{
     margin: 10px 0;
     font-size: 1.8rem;
+    transform: translateY(35px);
 }
 .tab-button-container{
     display: flex;
@@ -242,13 +252,15 @@ u{
 
     /* display: flex;
     /* justify-content: center;
-    align-items: center; */ */
+    align-items: center; */ 
 
 }
 .tabination-content img{
-    min-height: 70%;
-    min-width: 40%;
+    min-height: 200px;
+    min-width: 350px;
     float: left;
+    position: relative;
+    left: 18%;
     
 }
 .active-tab{
@@ -270,12 +282,14 @@ u{
 .content-5{
     /* background-color: orange; */
 }
-.star{
-    /* min-width: 100vw;
-    min-height: 100vh; */
-    min-height: 750px;
-    min-width: 2050px;
-    position: absolute;
-    right: -30%;
-    
+.inner-tab-content{
+    max-width: 400px;
+    float: right;
+    position: relative;
+    right: 18%;
+    top: 30%;
+    line-height: 1.5;
+}
+.inner-tab-content h2{
+    margin-bottom: 20px;
 }
