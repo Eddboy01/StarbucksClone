@@ -19,7 +19,11 @@
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-/* HEADER SECTION / NAVIGATION */
+/* 
+===========================
+HEADER SECTION / NAVIGATION
+===========================
+*/
 .nav-container{
     position: sticky;
     top: 0;
@@ -86,6 +90,11 @@ img{
     font-size: .9rem;
     letter-spacing: 1px;
 }
+/* 
+=======================================================================================================================
+                                            HERO SECTION 
+=======================================================================================================================
+*/
 .hero{
     min-height: 110vh;
     background-color: var(--color-3);
@@ -151,7 +160,11 @@ img{
     right: -30%;
     
 }
-/* SERVICES SECTION */
+/* 
+=====================================================================================================================
+                                                SERVICES SECTION 
+=====================================================================================================================
+*/
 .services-container{
     display: flex;
     justify-content: space-evenly;
@@ -196,7 +209,11 @@ u{
     text-decoration: underline;
     color: var(--color-2);
 }
-/* TABINATION SECTION */
+/* 
+===================================================================================================================
+                                                TABINATION SECTION
+====================================================================================================================
+*/
 .tabination-section{
     padding: 1rem;
     position: relative;
@@ -294,7 +311,11 @@ u{
     margin-bottom: 20px;
 }
 
-/* EXTRAS SECTION */
+/* 
+======================================================================================================================
+                                                    EXTRAS SECTION
+======================================================================================================================
+*/
 .extras-section{
     padding: 1rem;
     text-align: center;
@@ -338,9 +359,29 @@ u{
     min-width: 110px;
 
 }
+
+/* 
+=============================================================================================================
+                                        CASH OR CARD SECTION
+==============================================================================================================
+*/
 .cash-or-card-section{
     background-color: var(--color-5);
+    padding: 3.2rem 0;
     
+    
+}
+.card-sec-head-box{
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.card-sec-head-box h2{
+    margin-bottom:15px ;
+}
+.card-sec-head-box p{
+    font-size: .9rem;
+    font-weight: 600;
 }
 .trio-box{
     display: flex;
