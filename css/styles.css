@@ -338,3 +338,30 @@ u{
     min-width: 110px;
 
 }
+.cash-or-card-section{
+    background-color: var(--color-5);
+    
+}
+.trio-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 300px;
+    border-bottom: 1px solid #333;
+    
+    
+}
+.card-sec-trio-box-2{
+    display: flex;
+}
+.trio{
+    display: flex;
+    max-width: 400px;
+    margin: 0 100px;
+    
+
+}
+.trio img{
+    min-width: 100px;
+    min-height: 150px;
+}
