@@ -365,6 +365,7 @@ u{
                                         CASH OR CARD SECTION
 ==============================================================================================================
 */
+/* Section container */
 .cash-or-card-section{
     background-color: var(--color-5);
     padding: 3.2rem 0;
@@ -375,29 +376,40 @@ u{
     text-align: center;
     max-width: 650px;
     margin: 0 auto;
+    line-height: 1.7;
 }
 .card-sec-head-box h2{
     margin-bottom:15px ;
+    font-size: 1.7rem;
 }
 .card-sec-head-box p{
     font-size: .9rem;
-    font-weight: 600;
+    font-weight: 500;
 }
+/* TRIO BOX NO IMG */
+.trio-box1{
+width: 200px;
+transform: translateY(-50px);
+}
+/* 
+ */
 .trio-box{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     height: 300px;
     border-bottom: 1px solid #333;
+    line-height: 1.3;
+    
     
     
 }
-.card-sec-trio-box-2{
+/* .card-sec-trio-box-2{
     display: flex;
-}
+} */
 .trio{
     display: flex;
-    max-width: 400px;
+    width: 350px;
     margin: 0 100px;
     
 
@@ -405,4 +417,12 @@ u{
 .trio img{
     min-width: 100px;
     min-height: 150px;
+    margin-right: 10px;
+}
+.trio-box2{
+    transform: translateX(-40px);
+}
+
+.trio-box3{
+    transform: translateX(-100px);
 }
