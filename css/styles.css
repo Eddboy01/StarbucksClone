@@ -20,9 +20,9 @@
 }
 
 /* 
-===========================
-HEADER SECTION / NAVIGATION
-===========================
+===========================================================================================================================
+                                            HEADER SECTION / NAVIGATION
+===========================================================================================================================
 */
 .nav-container{
     position: sticky;
@@ -437,8 +437,46 @@ transform: translateY(-50px);
     border-bottom: none;
 }
 /* 
-====================================================================================================================
+=========================================================================================================================
                                                    STAR SECTION
 =========================================================================================================================
 */
 
+.star-section{
+
+    padding: 5rem 17.5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.star-section-head-container{
+
+    width: 600px;
+
+}
+
+.star-section-head-container h2{
+
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.star-input-box{
+    position: relative;
+}
+.star-input-box input{
+    width: 600px;
+    padding: 1rem .8rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 222, 222);
+}
+.star-input-box button{
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    left: 510px;
+    padding: .8rem 1rem;
+}
