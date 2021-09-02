@@ -445,16 +445,18 @@ transform: translateY(-50px);
 .star-section{
 
     padding: 5rem 17.5rem;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 110px;
 
 }
 
 .star-section-head-container{
 
     width: 600px;
+    transform: translateY(-30px);
 
 }
 
@@ -466,8 +468,13 @@ transform: translateY(-50px);
 .star-section-head-container p{
     font-size: 1rem;
 }
+.sublink-section{
+    transform: translateY(-30px);
+}
 .star-input-box{
     position: relative;
+    transform: translateY(-30px);
+
 }
 .star-input-box input{
     width: 600px;
@@ -483,7 +490,7 @@ transform: translateY(-50px);
     left: 510px;
     padding: .6rem 1.2rem;
     background-color: transparent;
-    border-radius: 25%;
+    border-radius: 50px;
     border: 1px solid rgb(165, 163, 163);
 }
 
