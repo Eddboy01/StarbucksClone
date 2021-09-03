@@ -497,3 +497,31 @@ transform: translateY(-50px);
 .question-container{
     transform: translateY(100px);
 }
+
+
+/* 
+=========================================================================================================================
+                                                   FOOTER 1
+=========================================================================================================================
+*/
+
+.footer-1{
+    min-height: 70vh;
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+.footer-1 h3{
+    font-size: .9rem;
+}
+.footer-1 .container-box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.content-box-1, .content-box-2{
+    
+    width: 625px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
