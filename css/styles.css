@@ -552,3 +552,13 @@ transform: translateY(-50px);
 =========================================================================================================================
 */
 
+.footer-2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-2 ul{
+    display: flex;
+    flex-direction: column;
+}
+
