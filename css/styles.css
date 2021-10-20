@@ -509,9 +509,13 @@ transform: translateY(-50px);
     min-height: 70vh;
     background-color: #f7f7f7;
     padding: 2rem;
+    /* color: rgba(0,0,0,.58); */
 }
 .footer-1 h3{
     font-size: .9rem;
+}
+.footer-1 p{
+    font-size: 14.5px;
 }
 .footer-1 .container-box-1{
     display: flex;
@@ -525,3 +529,26 @@ transform: translateY(-50px);
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.container-box-2{
+    display: flex;
+    justify-content: space-between;
+    /* max-height: 250px; */
+}
+.container-box-1 p{
+    /* font-size: 1.4rem; */
+}
+.container-box-2 .content-box-1 {
+    height: 140px;
+} 
+
+.container-box-2 .content-box-2 {
+    height: 140px;
+} 
+
+/* 
+=========================================================================================================================
+                                                   FOOTER 2
+=========================================================================================================================
+*/
+
