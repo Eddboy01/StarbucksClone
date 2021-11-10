@@ -579,7 +579,7 @@ display: flex;
 .footer-2 ul{
     display: flex;
     flex-direction: column;
-    min-height: 400px;
+    min-height: 350px;
     width: 215px;
     transform: translateY(60px);
 }
