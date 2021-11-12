@@ -596,3 +596,28 @@ display: flex;
     font-size: 1.1rem;
     color: #000;
 }
+
+
+
+/* 
+=========================================================================================================================
+                                                   FOOTER 3
+=========================================================================================================================
+*/
+.footer-3{
+    padding: 2rem;
+}
+.footer-3 i{
+font-size: 1.6rem;
+margin: 0 10px;
+}
+
+.footer-3-ul-container{
+    display: flex;
+}
+.footer-3-ul-container p{
+    margin-top: 20px;
+    margin-right: 13px;
+    border: none;
+    border-left: 1px solid rgb(165, 163, 163);
+}
