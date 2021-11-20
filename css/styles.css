@@ -614,12 +614,16 @@ margin: 0 10px;
 
 .footer-3-ul-container{
     display: flex;
+    margin-top: 10px;
 }
 .footer-3-ul-container p{
     margin-top: 20px;
     margin-right: 13px;
     margin-left: 15px;
    
+}
+.footer-3-ul-container .left{
+    margin-left: 0;
 }
 .foot3-div{
     background-color: #000;
@@ -629,3 +633,7 @@ margin: 0 10px;
     display:inline-block ;
 }
 
+.subfoot3{
+    margin-top: 20px;
+    color: rgb(165, 163, 163);
+}
