@@ -25,9 +25,18 @@
 ===========================================================================================================================
 */
 .nav-container{
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000; */
+    
+}
+
+@media(min-width: 800px){
+    .nav-container{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
 }
 .navigation{
     display: none;
