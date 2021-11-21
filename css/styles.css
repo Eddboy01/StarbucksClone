@@ -29,7 +29,22 @@
     top: 0;
     z-index: 1000;
 }
+@media(min-width: 800px){
+    .navigation{
+        padding: 1.3rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(---color-6);
+        background-color: #fff;
+        
+    
+    }
+}
 .navigation{
+    display: none;
+}
+/* .navigation{
     padding: 1.3rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -38,7 +53,7 @@
     background-color: #fff;
     
 
-}
+} */
 ul li{
     display: inline;
     margin: 0 10px;
